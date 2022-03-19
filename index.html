@@ -12,67 +12,73 @@
 <body>
 	<div class="wrapper">
 		<div class="home-page">
-			<header id="open" class="header">
-				<div id="close" class="header__container">
-					<a href="" class="header__logo logo">
-						<img src="./img/header/logo.png" alt="Логотип">
-						<img src="./img/header/name.png" alt="Имя>">
+			<header id="about" class="header">
+				<div class="header__container">
+					<a href="#" class="header__logo logo">
+						<img class="logo_face" src="./img/header/logo.png" alt="Логотип">
+						<img class="logo_brand" src="./img/header/name.png" alt="Имя>">
 					</a>
 					<div class="header__menu menu">
 						<nav class="menu__body">
 							<ul class="menu__list">
-								<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-								<li class="menu__item"><a href="#" class="menu__link">News</a></li>
-								<li class="menu__item"><a href="#" class="menu__link">Music</a></li>
-								<li class="menu__item"><a href="#" class="menu__link">Media</a></li>
-								<li class="menu__item"><a href="#" class="menu__link">Tours</a></li>
-								<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+								<li class="menu__item">
+									<a href="#about" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="#news" class="menu__link">News</a>
+								</li>
+								<li class="menu__item">
+									<a href="#music" class="menu__link">Music</a>
+								</li>
+								<li class="menu__item">
+									<a href="#media" class="menu__link">Media</a>
+								</li>
+								<li class="menu__item">
+									<a href="#tours" class="menu__link">Tours</a>
+								</li>
+								<li class="menu__item">
+									<a href="#contacts" class="menu__link">Contacts</a>
+								</li>
 							</ul>
 						</nav>
 					</div>
 				</div>
 			</header>
 			<main class="main">
-				<!--<section class="single">
+				<section class="single">
 					<div class="single__container">
 						<div class="single__content">
 							<h2 class="single__title title">New Single</h2>
 							<h1 class="single__name">War For Love</h1>
-							<audio class="single__audio audio" controls>
+							<!--<audio class="single__audio audio" controls>
 								<source src="myAudio.mp3" type="audio/mpeg">
 								<source src="myAudio.ogg" type="audio/ogg">
 								<p>Ваш браузер не поддерживает HTML5 аудио. Вот взамен
 									<a href="myAudio.mp4">ссылка на аудио</a>
 								</p>
-							</audio>
+							</audio>-->
 							<div class="single__items">
 								<div class="single__item">
-									<div class="single__item_bg">
-										<img src="./img/main/main1.png" alt="work">
-									</div>
-									<div class="single__item__content">
+									<img class="single__item_bg" src="./img/main/main1.png" alt="work">
+									<span class="single__item__content">
 										Working on my upcoming full-lenth album that`s releasing later this year.
-									</div>
+									</span>
 								</div>
 								<div class="single__item">
 									<div class="single__item">
-										<div class="single__item_bg">
-											<img src="./img/main/main2.png" alt="new track">
-										</div>
-										<div class="single__item__content">
+										<img class="single__item_bg" src="./img/main/main2.png" alt="new track">
+										<span class="single__item__content">
 											Halloween vibes.
 											<br> Listen my new track!
-										</div>
+										</span>
 									</div>
 								</div>
 								<div class="single__item">
-									<div class="single__item_bg">
-										<img src="./img/main/main3.png" alt="stream">
-									</div>
-									<div class="single__item__content">
+									<img class="single__item_bg" src="./img/main/main3.png" alt="stream">
+									<span class="single__item__content">
 										WarForLove is OUT NOW!!
 										<br> Stream it here!
-									</div>
+									</span>
 								</div>
 							</div>
 						</div>
@@ -86,7 +92,7 @@
 						</div>
 						<div class="bright-lights__content">
 							<div class="bright-lights__content__text">
-								<div class="bright-lights__content__text_descr">
+								<p class="bright-lights__content__text_descr">
 									Bright Lights is a multi-Grammy nominated singer, songwriter, DJ and record producer. She has
 									written for numerous pop stars including Britney Spears, Justin Bieber, Usher and Beyoncé.
 									Her catalog has amassed over 1 billion streams worldwide. More than 100 million of those
@@ -95,7 +101,7 @@
 									vocalist on Zedd's #1 Clarity album. Her latest music video, "Put It Down," reached 1 million
 									streams in the first week, releasing independently. Bright Lights is currently in the studio
 									working on a self-produced album slated for release in 2020.
-								</div>
+								</p>
 								<div class="bright-lights__content__text_facts facts">
 									<div class="fact">
 										<img src="./img/album/dot.png" class="fact_img" alt="dot">
@@ -125,19 +131,18 @@
 							</div>
 							<div class="bright-lights__content__imgs">
 								<img class="bright-lights__content_img" src="./img/album/img.png" alt="cover">
-								<img class="bright-lights__content_img" src="./img/album/imgbd.png"
-									alt="cover background">
+								<img class="bright-lights__content_img" src="./img/album/imgbd.png" alt="cover background">
 							</div>
 
 						</div>
-						<div class="bright-lights__add__container">
+						<div id="news" class="bright-lights__add__container">
 							<div class="bright-lights__add__content">
-								<div class="bright-lights__add__content_text">
+								<blockquote class="bright-lights__add__content_text">
 									“In an age where mainstream music is designed to be as
 									easily consumed as possible, listening to Bright Lights is
 									refreshing, to say the least. Her sound is perfect for radio
 									but complex enough to separate her from other pop newcomers.”
-								</div>
+								</blockquote>
 								<a class="bright-lights__add__content_link" href="#">PopULove.net</a>
 							</div>
 							<div class="bright-lights__add__img">
@@ -145,8 +150,8 @@
 							</div>
 						</div>
 					</div>
-				</section>-->
-				<section class="tracks">
+				</section>
+				<section id="music" class="tracks">
 					<div class="tracks__container">
 						<div class="tracks__img">
 							<img src="./img/tracks/img.png" alt="dj">
@@ -156,83 +161,165 @@
 								<img class="title_img" src="./img/album/equa.png" alt="">
 								<h2>Last tracks</h2>
 							</div>
-							<audio class="tracks__audio audio" controls>
+							<!--<audio class="tracks__audio audio" controls>
 								<source src="myAudio.mp3" type="audio/mpeg">
 								<source src="myAudio.ogg" type="audio/ogg">
 								<p>Ваш браузер не поддерживает HTML5 аудио. Вот взамен
 									<a href="myAudio.mp4">ссылка на аудио</a>
 								</p>
-							</audio>
-							<ol>
-								<li>Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now</li>
-								<li>Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
-								<li>Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
-								<li>Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
-								<li>Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
-								<li>Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
+							</audio>-->
+							<ol class="tracks__list">
+								<li class="tracks__list_item">Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now</li>
+								<li class="tracks__list_item">Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
+								<li class="tracks__list_item">Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
+								<li class="tracks__list_item">Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
+								<li class="tracks__list_item">Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
+								<li class="tracks__list_item">Bright Lights, Kaleena Zanders, Kandy — War For Love</li>
 							</ol>
 							<div class="tracks__content__follow">
-								<span class="tracks__content__follow_descr"></span>
-								<div class="tracks__content__follow__link">
-									<a href="#"> Spotify
-										<img src="./img/footer/spotify.svg" alt=spotify"">
-									</a>
+								<span class="tracks__content__follow_descr">
+									Follow me:
+								</span>
+								<div class="tracks__content__follow__links">
+									<a class="tracks__content__follow__links_link link_spotify" href="#">Spotify</a>
+									<a class="tracks__content__follow__links_link link_itunes" href="#">iTunes</a>
 								</div>
-								<div class="tracks__content__follow__link">
-									<a href="#"> iTunes
-										<img src="./img/footer/itunes.svg" alt="iTunes">
-									</a>
-								</div>
-
 							</div>
 						</div>
-
 					</div>
 				</section>
-				<section class="gallery">
+				<section id="media" class="gallery">
 					<div class="gallery__container">
-						<img src="./img/gallery/img1.png" alt="#">
-						<img src="./img/gallery/img2.png" alt="#">
-						<img src="./img/gallery/img3.png" alt="#">
-						<img src="./img/gallery/img4.png" alt="#">
-						<a href="#">EDC Las Vegas Mainstage</a>
+						<img class="gallery_img one" src="./img/gallery/img1.png" alt="#">
+						<img class="gallery_img two" src="./img/gallery/img2.png" alt="#">
+						<img class="gallery_img three" src="./img/gallery/img3.png" alt="#">
+						<img class="gallery_img four" src="./img/gallery/img4.png" alt="#">
+						<a class="gallery_link five" href="#">
+							<span>EDC Las Vegas Mainstage</span>
+						</a>
+
 					</div>
 				</section>
-				<section class="albums">
+				<section id="tours" class="albums">
 					<div class="albums__container">
-						<button class="albums_arrow-l"></button>
 						<div class="albums__cards">
-							<div class="albums__cards__card card">
-								<img class="card_img" src="@img" alt="">
-								<div class="card__content">
-									<div class="card__content_title">
-
-									</div>
-									<div class="card__content_name">
-
-									</div>
-									<div class="card__content__footer">
-										<div class="card__content__footer_data">
-
+							<button class="albums__arrows arrow_left"></button>
+							<div class="slider">
+								<div class="slider_line">
+									<div class="albums__cards__card card">
+										<img class="card_img" src="./img/albums/1.png" alt="#">
+										<div class="card__content">
+											<span class="card__content_title">
+												Chandler, AZ
+											</span>
+											<span class="card__content_name">
+												The Park at Wild Horse Pass
+											</span>
 										</div>
-										<div class="card__content__footer_btn">
-											<a href="#"></a>
+										<div class="card__footer">
+											<span class="card__footer_data">
+												Apr 02 2021
+											</span>
+											<a class="card__footer_btn" href="#">
+												tickets
+											</a>
+										</div>
+									</div>
+									<div class="albums__cards__card card">
+										<img class="card_img" src="./img/albums/2.png" alt="#">
+										<div class="card__content">
+											<span class="card__content_title">
+												Ibiza, IBZ
+											</span>
+											<span class="card__content_name">
+												Swag Ibiza Club
+											</span>
+										</div>
+										<div class="card__footer">
+											<span class="card__footer_data">
+												Jul 08 2021
+											</span>
+											<a class="card__footer_btn" href="#">
+												tickets
+											</a>
+										</div>
+									</div>
+									<div class="albums__cards__card card">
+										<img class="card_img" src="./img/albums/1.png" alt="#">
+										<div class="card__content">
+											<span class="card__content_title">
+												Ibiza, IBZ
+											</span>
+											<span class="card__content_name">
+												El Swing Ibiza
+											</span>
+										</div>
+										<div class="card__footer">
+											<span class="card__footer_data">
+												Jul 10 2021
+											</span>
+											<a class="card__footer_btn" href="#">
+												tickets
+											</a>
+										</div>
+									</div>
+									<div class="albums__cards__card card">
+										<img class="card_img" src="./img/albums/1.png" alt="#">
+										<div class="card__content">
+											<span class="card__content_title">
+												Ibiza, IBZ
+											</span>
+											<span class="card__content_name">
+												El Swing Ibiza
+											</span>
+										</div>
+										<div class="card__footer">
+											<span class="card__footer_data">
+												Jul 10 2021
+											</span>
+											<a class="card__footer_btn" href="#">
+												tickets
+											</a>
+										</div>
+									</div>
+									<div class="albums__cards__card card">
+										<img class="card_img" src="./img/albums/1.png" alt="#">
+										<div class="card__content">
+											<span class="card__content_title">
+												Ibiza, IBZ
+											</span>
+											<span class="card__content_name">
+												El Swing Ibiza
+											</span>
+										</div>
+										<div class="card__footer">
+											<span class="card__footer_data">
+												Jul 10 2021
+											</span>
+											<a class="card__footer_btn" href="#">
+												tickets
+											</a>
 										</div>
 									</div>
 								</div>
+								
 							</div>
+							
+							<button class="albums__arrows arrow_right"></button>
 						</div>
-						<button class="albums_arrow-r"></button>
 					</div>
 				</section>
 			</main>
 		</div>
-		<footer class="footer">
+		<footer id="contacts" class="footer">
 			<div class="footer__container">
-				<a href="" class="footer__logo logo">
-					<img src="./img/header/logo.png" alt="Логотип">
-					<img src="./img/header/name.png" alt="Имя>">
-				</a>
+				<div class="footer__logo">
+					<a href="#" class="logo">
+						<img class="logo_face" src="./img/header/logo.png" alt="Логотип">
+						<img class="logo_brand" src="./img/header/name.png" alt="Имя>">
+					</a>
+				</div>
+
 				<div class="footer__contacts contacts">
 					<div class="contacts__descr">
 						<span class="contacts__descr_item">
@@ -273,12 +360,15 @@
 						<img src="./img/footer/fb.svg" alt="Facebook">
 					</a>
 				</div>
-				<span class="footer__author">
-					© 2020 DJ bright lights.
-				</span>
+				<div class="footer__author">
+					<span>
+						© 2020 DJ bright lights.
+					</span>
+				</div>
 			</div>
 		</footer>
 	</div>
+	<script src="./js/script.js"></script>
 </body>
 
 </html>
