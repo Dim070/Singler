@@ -52,13 +52,43 @@ body {
 	flex-direction: column;
 	background: #1C1B21;
 	min-height: 100vh;
+	background-size: 100%;
+	background-image: url('./../img/main/bg.png');
+	background-repeat: no-repeat;
 }
 
 [class*="__container"] {
-	width: 60.94vw;
+	max-width: 60.94vw;
 	margin: 0px auto;
 	padding: 0px 0.78vw;
 }
+
+
+/* TABLET */
+@media (max-width: 1200px) {
+	[class*="__container"] {
+		max-width: 724px;
+	}
+}
+/* MOBILE */
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		max-width: 590px;
+	}
+}
+/* MOBILE SMALL */
+@media (max-width: 479.98px) {
+	[class*="__container"] {
+		max-width: 340px;
+	}
+}
+
+
+
+
+
+
+
 
 .title {
 	font-weight: 700;
@@ -76,15 +106,6 @@ body {
 
 
 /* -------------------------------------------------------- */
-
-.home-page {
-	min-width: 100%;
-	background-size: 100%;
-	flex: 1 1 auto;
-	background-image: url('./../img/main/bg.png');
-	background-repeat: no-repeat;
-	z-index: 1;
-}
 
 .header__container {
 	display: flex;
@@ -137,8 +158,10 @@ body {
 	margin-top: 17.29vw;
 }
 
+
 .single__content {
 	width: 100%;
+	z-index: 10;
 }
 
 .single__title {
@@ -150,7 +173,7 @@ body {
 	font-size: 5.21vw;
 	line-height: 7.81vw;
 	color: transparent;
-	-webkit-text-stroke: 1px #FFFFFF;
+	-webkit-text-stroke: 0.05vw #FFFFFF;
 	margin-bottom: 2.60vw;
 }
 
@@ -169,7 +192,7 @@ body {
 .single__item {
 	width: 18.23vw;
 	height: 15.63vw;
-	border-radius: 10px 0px;
+	border-radius: 20px 0px;
 	position: relative;
 }
 
@@ -189,7 +212,7 @@ body {
 	font-size: 0.83vw;
 	font-weight: 500;
 	line-height: 1.25vw;
-	border-radius: 10px 0px;
+	border-radius: 20px 0px;
 }
 
 
@@ -240,23 +263,25 @@ body {
 }
 
 .bright-lights__content_img {
-	border-radius: 10px 0px;
+	position: relative;
+	border-radius: 30px 0px;
 	width: 18.23vw;
 	height: 20.83vw;
+	z-index: 10;
 }
 
 .bright-lights__content_img:last-child {
 	position: absolute;
 	top: 3.44vw;
 	left: 4.95vw;
-	z-index: -10;
+	z-index: 1;
 }
 
 .bright-lights__add__container {
 	height: 16.41vw;
 	background: #1C1B21;
 	border: 1px solid #FFFFFF;
-	border-radius: 10px 0px;
+	border-radius: 30px 0px;
 	display: flex;
 	column-gap: 3.13vw;
 	position: relative;
@@ -476,7 +501,7 @@ body {
 	flex-direction: column;
 	width: 18.23vw;
 	height: 24.64vw;
-	border-radius: 10px 0px;
+	border-radius: 30px 0px;
 	background: rgb(53, 50, 50);
 }
 
@@ -487,6 +512,7 @@ body {
 .card_img {
 	width: 18.23vw;
 	height: 14.58vw;
+	border-radius: 30px 0px;
 }
 
 .card__content {
