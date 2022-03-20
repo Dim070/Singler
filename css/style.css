@@ -465,14 +465,13 @@ body {
 .slider_line {
 	display: flex;
 	/*gap: 1.56vw;*/
-	
 	position: relative;
-	/*left: 50px;*/
+	left: -19.79vw;
 	transition: all 0.5s ease-out;
 }
 
 .card {
-	margin-right: 30px;
+	margin-right: 1.56vw;
 	display: flex;
 	flex-direction: column;
 	width: 18.23vw;
@@ -480,6 +479,10 @@ body {
 	border-radius: 10px 0px;
 	background: rgb(53, 50, 50);
 }
+
+/*.last-card {
+	margin-right: 3.13vw;
+}*/
 
 .card_img {
 	width: 18.23vw;
@@ -560,7 +563,8 @@ body {
 .arrow_right {
 	background: url(../img/albums/arrowr.svg) 0 0 no-repeat;
 	background-size: contain;
-	right: -4.17vw;
+	/*right: -4.17vw;*/
+	right: -2.61vw;
 }
 
 /*<---------------------------------------------->*/
