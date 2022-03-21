@@ -21,13 +21,3 @@ arLeft.addEventListener('click', () => {
    sliderLine.style.left = -offset + 'vw'
 })
 
-
-
-arRight.addEventListener('click', () => {
-   console.log('1');
-   //cards.forEach(el => el.classList.toggle('last-card'));
-   for (let i = 2; i < cards.length; i++) {
-
-      console.log(i)
-   }
-})
